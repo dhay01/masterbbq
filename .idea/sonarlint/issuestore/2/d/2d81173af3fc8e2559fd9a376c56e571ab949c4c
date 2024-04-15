@@ -1,0 +1,11 @@
+
+Ljavascript:S1128"$Remove this unused import of 'Link'.(ÿĞÍ¸ÿÿÿÿÿ8‹èİÉí1
+Mjavascript:S1128"%Remove this unused import of 'Image'.(¾Ó¬ùÿÿÿÿ8ŒèİÉí1
+fjavascript:S1481
+"DRemove the declaration of the unused 'setSelectedCategory' variable.(Ò¯æQ8ŒèİÉí1
+cjavascript:S1854
+"ARemove this useless assignment to variable "setSelectedCategory".(Ò¯æQ8ŒèİÉí1
+Yjavascript:S1481"6Remove the declaration of the unused 'items' variable.(–Ì°8ŒèİÉí1
+Vjavascript:S1854"3Remove this useless assignment to variable "items".(–Ì°8ŒèİÉí1
+æjavascript:S6848%"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(×û‘Ï8ŒèİÉí1
+‚javascript:S1082%"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(×û‘Ï8ŒèİÉí1

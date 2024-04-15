@@ -1,0 +1,340 @@
+{
+  "menu": [
+    {
+      "category_id": "1",
+      "category": "Box Meal",
+      "category_name": "Box Meal",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/box-meals",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "Box For 1 Person",
+          "price": "20,000 IQD",
+          "photo": "photo17.jpg",
+          "description": "1 Burger, 200 g of brisket meat, 6 onion rings, 50 g Spaghetti, 1 water + 1 soft drink + fries and sauces"
+        },
+        {
+          "id": "2",
+          "name": "Box For 2 people",
+          "price": "28,000 IQD",
+          "photo": "photo17.jpg",
+          "description": "2 Burger, 200 g of brisket meat, 6 onion rings, 100 g Spaghetti, 2 water + 2 soft drink + fries and sauces"
+        },
+        {
+          "id": "3",
+          "name": "Box For 3 people",
+          "price": "44,000 IQD",
+          "photo": "photo17.jpg",
+          "description": "3 Burger, 400 g of brisket meat, 9 onion rings, 150 g Spaghetti, 3 water + 3 soft drink + fries and sauces"
+        },
+        {
+          "id": "4",
+          "name": "Box For 4 people",
+          "price": "56,000 IQD",
+          "photo": "photo17.jpg",
+          "description": "4 Burger, 400 g of brisket meat, 12 onion rings, 200 g Spaghetti, 4 water + 4 soft drink + fries and sauces"
+        }
+      ]
+    },
+    {
+      "category_id": "2",
+      "category": "Salads",
+      "category_name": "Salads",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/salads",
+      "dishes": [
+        {
+          "id": "5",
+          "name": "Mix Salad",
+          "price": "12,000 IQD",
+          "photo": "photo18.jpg",
+          "description": "lollo-rosso lettuce + Cherry tomatoes + Cucumber + carrot + dates + walnut + apple + Pepper colors With chef sauce"
+        },
+        {
+          "id": "6",
+          "name": "BBQ Salad",
+          "price": "14,000 IQD",
+          "photo": "photo19.jpg",
+          "description": "lollo-rosso lettuce + Cherry tomatoes + Grilled pineapple + Grilled avocado + Grilled chicken with chef sauce"
+        }
+      ]
+    },
+    {
+      "category_id": "3",
+      "category": "oriental food",
+      "category_name": "oriental food",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/oriental-food",
+      "dishes": [
+        {
+          "id": "3",
+          "name": "Fries",
+          "price": "$4",
+          "photo": "photo18.jpg",
+          "description": "Lorem ipsum dolor"
+        },
+        {
+          "id": "4",
+          "name": "Wings",
+          "price": "$8",
+          "photo": "photo19.jpg",
+          "description": "Lorem ipsum dolor"
+        }
+      ]
+    },
+    {
+      "category_id": "5",
+      "category": "hot appetizers",
+      "category_name": "hot appetizers",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/hot-appetizers",
+      "dishes": [
+        {
+          "id": "11",
+          "name": "Falafel",
+          "price": "15,000 IQD",
+          "photo": "photo24.jpg",
+          "description": "Deep-fried ball or patty made from ground chickpeas, fava beans, or both"
+        },
+        {
+          "id": "12",
+          "name": "Kibbeh",
+          "price": "18,000 IQD",
+          "photo": "photo25.jpg",
+          "description": "Levantine dish made of bulgur, minced onions, and finely ground lean beef, lamb, goat, or camel meat"
+        }
+      ]
+    },
+    {
+      "category_id": "6",
+      "category": "Ribs",
+      "category_name": "Ribs",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/ribs",
+      "dishes": [
+        {
+          "id": "13",
+          "name": "Pork Ribs",
+          "price": "25,000 IQD",
+          "photo": "photo26.jpg",
+          "description": "Slow-cooked pork ribs in BBQ sauce"
+        },
+        {
+          "id": "14",
+          "name": "Beef Ribs",
+          "price": "30,000 IQD",
+          "photo": "photo27.jpg",
+          "description": "Slow-cooked beef ribs in BBQ sauce"
+        }
+      ]
+    },
+    {
+      "category_id": "7",
+      "category": "Brisket",
+      "category_name": "Brisket",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/brisket",
+      "dishes": [
+        {
+          "id": "15",
+          "name": "Smoked Brisket",
+          "price": "35,000 IQD",
+          "photo": "photo28.jpg",
+          "description": "Slow-smoked beef brisket with special rub"
+        },
+        {
+          "id": "16",
+          "name": "Grilled Brisket",
+          "price": "40,000 IQD",
+          "photo": "photo29.jpg",
+          "description": "Grilled beef brisket with BBQ sauce"
+        }
+      ]
+    },
+    {
+      "category_id": "8",
+      "category": "Grill",
+      "category_name": "Grill",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/grill",
+      "dishes": [
+        {
+          "id": "17",
+          "name": "Mixed Grill Platter",
+          "price": "50,000 IQD",
+          "photo": "photo30.jpg",
+          "description": "Assorted grilled meats including chicken, beef, and lamb"
+        },
+        {
+          "id": "18",
+          "name": "Shish Kebab",
+          "price": "18,000 IQD",
+          "photo": "photo31.jpg",
+          "description": "Skewered and grilled cubes of meat"
+        }
+      ]
+    },
+    {
+      "category_id": "9",
+      "category": "American Pizza",
+      "category_name": "American Pizza",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/american-pizza",
+      "dishes": [
+        {
+          "id": "19",
+          "name": "Pepperoni Pizza",
+          "price": "15,000 IQD",
+          "photo": "photo32.jpg",
+          "description": "Classic pizza topped with pepperoni slices"
+        },
+        {
+          "id": "20",
+          "name": "Margherita Pizza",
+          "price": "12,000 IQD",
+          "photo": "photo33.jpg",
+          "description": "Traditional pizza topped with tomato, mozzarella, and basil"
+        }
+      ]
+    },
+    {
+      "category_id": "10",
+      "category": "Smoked Lamb",
+      "category_name": "Smoked Lamb",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/smoked-lamb",
+      "dishes": [
+        {
+          "id": "21",
+          "name": "Smoked Lamb Shank",
+          "price": "40,000 IQD",
+          "photo": "photo34.jpg",
+          "description": "Slow-smoked lamb shank with rosemary and garlic"
+        },
+        {
+          "id": "22",
+          "name": "Grilled Lamb Chops",
+          "price": "35,000 IQD",
+          "photo": "photo35.jpg",
+          "description": "Grilled lamb chops seasoned with herbs and spices"
+        }
+      ]
+    },
+    {
+      "category_id": "11",
+      "category": "Burger & Sandwiches",
+      "category_name": "Burger & Sandwiches",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/burger-and-sandwiches",
+      "dishes": [
+        {
+          "id": "23",
+          "name": "Classic Burger",
+          "price": "12,000 IQD",
+          "photo": "photo36.jpg",
+          "description": "Beef patty, lettuce, tomato, onion, pickles, and special sauce in a bun"
+        },
+        {
+          "id": "24",
+          "name": "Chicken Sandwich",
+          "price": "14,000 IQD",
+          "photo": "photo37.jpg",
+          "description": "Grilled chicken breast, lettuce, tomato, and mayonnaise in a bun"
+        }
+      ]
+    },
+    {
+      "category_id": "12",
+      "category": "Shisha",
+      "category_name": "Shisha",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/shisha",
+      "dishes": [
+        {
+          "id": "25",
+          "name": "Apple Flavored Shisha",
+          "price": "20,000 IQD",
+          "photo": "photo38.jpg",
+          "description": "Hookah tobacco with a sweet apple flavor"
+        },
+        {
+          "id": "26",
+          "name": "Mint Flavored Shisha",
+          "price": "20,000 IQD",
+          "photo": "photo39.jpg",
+          "description": "Hookah tobacco with a refreshing mint flavor"
+        }
+      ]
+    },
+    {
+      "category_id": "13",
+      "category": "cold drinks",
+      "category_name": "cold drinks",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/cold-drinks",
+      "dishes": [
+        {
+          "id": "27",
+          "name": "Fresh Orange Juice",
+          "price": "8,000 IQD",
+          "photo": "photo40.jpg",
+          "description": "Freshly squeezed orange juice"
+        },
+        {
+          "id": "28",
+          "name": "Iced Coffee",
+          "price": "10,000 IQD",
+          "photo": "photo41.jpg",
+          "description": "Chilled coffee served with ice cubes"
+        }
+      ]
+    },
+    {
+      "category_id": "14",
+      "category": "Kids Meals and Drinks",
+      "category_name": "Kids Meals and Drinks",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/kids-meals-and-drinks",
+      "dishes": [
+        {
+          "id": "29",
+          "name": "Kids Chicken Nuggets",
+          "price": "10,000 IQD",
+          "photo": "photo42.jpg",
+          "description": "Chicken nuggets served with fries"
+        },
+        {
+          "id": "30",
+          "name": "Kids Cheese Pizza",
+          "price": "10,000 IQD",
+          "photo": "photo43.jpg",
+          "description": "Small cheese pizza suitable for kids"
+        }
+      ]
+    },
+    {
+      "category_id": "15",
+      "category": "Raw Meat",
+      "category_name": "Raw Meat",
+      "category_photo": "photo17.jpg",
+      "link": "dishes/raw-meat",
+      "dishes": [
+        {
+          "id": "31",
+          "name": "Beef Fillet",
+          "price": "30,000 IQD",
+          "photo": "photo44.jpg",
+          "description": "Fresh beef fillet ready for cooking"
+        },
+        {
+          "id": "32",
+          "name": "Lamb Chops",
+          "price": "25,000 IQD",
+          "photo": "photo45.jpg",
+          "description": "Tender lamb chops for grilling or frying"
+        }
+      ]
+    }
+  ]
+}
