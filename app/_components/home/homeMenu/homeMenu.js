@@ -49,7 +49,7 @@ function HomeMenu({ categories }) {
             <div className="hero">
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-2xl mx-auto">
-                        <h1 className="mb-5 text-3xl text-white font-bold">discover our menu</h1>
+                        <h1 className="mb-5 text-3xl text-white font-semibold">اكتشف قائمة وجباتنا المميزة</h1>
                     </div>
                 </div>
             </div>
@@ -59,10 +59,10 @@ function HomeMenu({ categories }) {
                     {categories.map((category, index) => (
                         <div  key={index} className={index === imageIndex ? "slide activeSlide" : "slide"}>
 
-                                <div className="card">
+                                <div className="card slide rounded">
                                     <Link href={`/menu/${category.link}`}>
-                                        <Image src={`/images/${category.category_photo}`} alt={category.name} width={200} height={200} />
-                                        <h3>{category.category_name}</h3>
+                                        <Image src={`/images/${category.category_photo}`} alt={category.name} width={300} height={300} />
+                                        <h2>{category.category_name}</h2>
                                     </Link>
                                 </div>
 

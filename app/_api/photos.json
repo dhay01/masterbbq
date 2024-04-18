@@ -1,0 +1,52 @@
+{
+  "general_photos": [
+    {
+
+      "id" : "1",
+      "link": "/photo17.jpg"
+
+    },
+    {
+
+      "id" : "2",
+      "link": "/photo20.jpg"
+
+    },
+    {
+
+      "id" : "3",
+      "link": "/photo14.jpg"
+
+    },
+    {
+
+      "id" : "4",
+      "link": "/photo12.jpg"
+
+    },
+    {
+
+      "id" : "5",
+      "link": "/photo12.jpg"
+
+    },
+    {
+
+      "id" : "6",
+      "link": "/photo12.jpg"
+
+    },
+    {
+
+      "id" : "7",
+      "link": "/photo12.jpg"
+
+    },
+    {
+
+      "id" : "8",
+      "link": "/photo12.jpg"
+
+    }
+  ]
+}

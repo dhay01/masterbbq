@@ -1,6 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import React from "react";
+import Link from "next/link";
 
 export default function Banner() {
     let iconStyleAmber = { color: "#E48413", fontSize: "0.9em", margin:"0.5em"};
@@ -14,19 +15,24 @@ export default function Banner() {
 
                     <div className="flex items-center">
                         <FaPhone style={iconStyleAmber} />
-                        <p className="text-sm ml-2 md:ml-0 md:mr-4">+1 123 456 7890</p>
+                        <p className="text-sm ml-2 md:ml-0 md:mr-4">+964 750 507 22 44</p>
 
                         <div className="flex items-center">
                             <FaLocationDot style={iconStyleAmber} />
-                            <p className="text-sm ml-2 md:ml-0">123 Main St, City</p>
+                            <p className="text-sm ml-2 md:ml-0">100 Meter Street, Erbil</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex justify-end mt-4 md:mt-0">
-                    <FaFacebook style={iconStyleWhite} />
-                    <FaTwitter style={iconStyleWhite} />
-                    <FaInstagram style={iconStyleWhite} />
+                    <Link href={`https://www.facebook.com/profile.php?id=100092882138492&mibextid=ZbWKwL`}>
+                        <FaFacebook style={iconStyleWhite} />
+                    </Link>
+                    <Link href={`https://www.instagram.com/masterbbq.erbil/`}>
+                        <FaInstagram style={iconStyleWhite} />
+                    </Link>
+
+
                 </div>
             </div>
         </main>

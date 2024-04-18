@@ -1,5 +1,3 @@
-
-
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -14,7 +12,7 @@ const Menu = ({ categories }) => {
         <div className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl text-white font-bold">our menu</h1>
+                    <h1 className="mb-5 text-5xl text-white font-bold">قائمة الطعام</h1>
                 </div>
             </div>
 
