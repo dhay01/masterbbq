@@ -2,8 +2,417 @@
   "menu": [
     {
       "category_id": "1",
-      "category": "Box Meal",
-      "category_name": "Box Meal",
+      "category": "Grill",
+      "category_name": "ستيك",
+      "category_photo": "/grill/3.jpg",
+      "link": "dishes/grill",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "ريب آي ستيك",
+          "price": "39,000 IQD",
+          "photo": "/grill/6.jpg",
+          "description": "375 جرام من لحم العجل العتيق بدون عظم مع البطاطس المشوية مع الزبدة والثوم"
+        },
+        {
+          "id": "2",
+          "name": "ستيك دالاس",
+          "price": "39,000 IQD",
+          "photo": "/grill/2.jpg",
+          "description": "375 جرام من لحم ضلع دالاس مع العظم المعتق والبطاطا الحلوة"
+        },
+        {
+          "id": "3",
+          "name": "وجبة ستيك مع البيض",
+          "price": "34,000 IQD",
+          "photo": "/grill/1.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "T-bone ستيك",
+          "price": "46,000 IQD",
+          "photo": "/grill/3.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "نيويورك ستيك",
+          "price": "32,000 IQD",
+          "photo": "/grill/4.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "ستيك سلمون",
+          "price": "32,000 IQD",
+          "photo": "/grill/5.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "سستيك ستريبلوين",
+          "price": "32,000 IQD",
+          "photo": "/grill/str.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "بون فيليه ستيك",
+          "price": "40,000 IQD",
+          "photo": "/grill/bonef.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "توماهوك ستيك",
+          "price": "130,000 IQD",
+          "photo": "/grill/tomahok.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "ستيك دجاج باربيكيو",
+          "price": "18,000 IQD",
+          "photo": "/grill/chickensteakbbq.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "فيليه ستيك",
+          "price": "38,000 IQD",
+          "photo": "/grill/ff.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "2",
+      "category": "Ribs",
+      "category_name": "الضلوع",
+      "category_photo": "/ribs/category1.jpg",
+      "link": "dishes/ribs",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "كيلو ضلوع مدخنة",
+          "price": "110,000 IQD",
+          "photo": "ribs/category1.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "نصف كيلو ضلوع مدخنة",
+          "price": "55,000 IQD",
+          "photo": "ribs/category1.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "3",
+      "category": "oriental food",
+      "category_name": "الوجبات الشرقية",
+      "category_photo": "/oriental/category3.jpg",
+      "link": "dishes/oriental-food",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "فخذ دجاج مع الرز",
+          "price": "14,000 IQD",
+          "photo": "/oriental/12.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "دجاج مسحب مع الرز البخاري",
+          "price": "16,000 IQD",
+          "photo": "/oriental/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "وجبة دجاج مع الخضار",
+          "price": "14,000 IQD",
+          "photo": "/oriental/16.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "لامب ريبس مدخن",
+          "price": "32,000 IQD",
+          "photo": "/oriental/11.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "لامب شانك مدخن",
+          "price": "24,000 IQD",
+          "photo": "/oriental/category3.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "ريش غنم مع الرز البخاري",
+          "price": "26,000 IQD",
+          "photo": "/oriental/15.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "وجبة فاهيتا دجاج",
+          "price": "12,000 IQD",
+          "photo": "/oriental/18.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "وجبة فاهيتا لحم",
+          "price": "15,000 IQD",
+          "photo": "/oriental/19.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "كرات اللحم مع الرز",
+          "price": "18,000 IQD",
+          "photo": "/oriental/meatrice.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "سكالوب فونحي",
+          "price": "14,000 IQD",
+          "photo": "/oriental/scalop.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "4",
+      "category": "hot appetizers",
+      "category_name": "المقبلات الحارة",
+      "category_photo": "/appetizers/hotapt/category8.jpg",
+      "link": "dishes/hot-appetizers",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "حلقات البصل",
+          "price": "4,000 IQD",
+          "photo": "/appetizers/hotapt/15.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "داينمت شرمب",
+          "price": "13,000 IQD",
+          "photo": "/appetizers/hotapt/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "ناجتس دجاج 6 قطع",
+          "price": "7,000 IQD",
+          "photo": "/appetizers/hotapt/114.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "ناجتس دجاج 10 قطع",
+          "price": "10,000 IQD",
+          "photo": "/appetizers/hotapt/115.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "فنكر",
+          "price": "4,000 IQD",
+          "photo": "/appetizers/hotapt/110.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "بطاطا ودجز",
+          "price": "7,000 IQD",
+          "photo": "/appetizers/hotapt/112.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "كرات بطاطا محشية ب الجبن",
+          "price": "7,000 IQD",
+          "photo": "/appetizers/hotapt/12.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "بورك جبنة",
+          "price": "3,000 IQD",
+          "photo": "/appetizers/hotapt/120.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "بورك خضار",
+          "price": "3,000 IQD",
+          "photo": "/appetizers/hotapt/120.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "بورك لحم",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/hotapt/120.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "سمبوسة دجاج",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/hotapt/119.jpg",
+          "description": ""
+        },
+        {
+          "id": "12",
+          "name": "سمبوسة خضار",
+          "price": "3,000 IQD",
+          "photo": "/appetizers/hotapt/119.jpg",
+          "description": ""
+        },
+        {
+          "id": "13",
+          "name": "سمبوسة لحم",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/hotapt/119.jpg",
+          "description": ""
+        },
+        {
+          "id": "14",
+          "name": "سمبوسة دجاج",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/hotapt/15.jpg",
+          "description": ""
+        },
+        {
+          "id": "15",
+          "name": "بطاطا حارة",
+          "price": "4,000 IQD",
+          "photo": "/appetizers/hotapt/116.jpg",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "name": "بطاطا مقلية بالجبن مع اللحم المقدد",
+          "price": "10,000 IQD",
+          "photo": "/appetizers/hotapt/117.jpg",
+          "description": ""
+        },
+        {
+          "id": "17",
+          "name": "بطاطا مقلية مع لحم بريكست",
+          "price": "12,000 IQD",
+          "photo": "/appetizers/hotapt/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "18",
+          "name": "اجنحة  مقرمشة, صوص باربيكيو",
+          "price": "10,000 IQD",
+          "photo": "/appetizers/hotapt/18.jpg",
+          "description": ""
+        },
+        {
+          "id": "19",
+          "name": "اجنحة مقرمشة, صوص بافلو",
+          "price": "10,000 IQD",
+          "photo": "/appetizers/hotapt/19.jpg",
+          "description": ""
+        },
+        {
+          "id": "20",
+          "name": "اجنحة  مقرمشة, صوص هاني ماستر",
+          "price": "10,000 IQD",
+          "photo": "/appetizers/hotapt/category8.jpg",
+          "description": ""
+        },
+        {
+          "id": "21",
+          "name": "اصابع الموزاريلا",
+          "price": "8,000 IQD",
+          "photo": "/appetizers/hotapt/17.jpg",
+          "description": ""
+        },
+        {
+          "id": "22",
+          "name": "كبة مشوية",
+          "price": "7,000 IQD",
+          "photo": "/appetizers/hotapt/11.jpg",
+          "description": ""
+        },
+        {
+          "id": "23",
+          "name": "كبة مقلية",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/hotapt/11.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "5",
+      "category": "cold appetizers",
+      "category_name": "المقبلات الباردة",
+      "category_photo": "/appetizers/cold/category9.jpg",
+      "link": "dishes/cold-appetizers",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "متبل شوندر",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "بابا غنوج",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "بيروتية",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "حمص بطحينة مع بريسكت",
+          "price": "8,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "ورق عنب",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "متبل باذنجان",
+          "price": "5,000 IQD",
+          "photo": "/appetizers/cold/13.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "6",
+      "category": "salads",
+      "category_name": "السلطات",
       "category_photo": "photo17.jpg",
       "link": "dishes/box-meals",
       "dishes": [
@@ -38,147 +447,184 @@
       ]
     },
     {
-      "category_id": "2",
-      "category": "Salads",
-      "category_name": "Salads",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/salads",
-      "dishes": [
-        {
-          "id": "5",
-          "name": "Mix Salad",
-          "price": "12,000 IQD",
-          "photo": "photo18.jpg",
-          "description": "lollo-rosso lettuce + Cherry tomatoes + Cucumber + carrot + dates + walnut + apple + Pepper colors With chef sauce"
-        },
-        {
-          "id": "6",
-          "name": "BBQ Salad",
-          "price": "14,000 IQD",
-          "photo": "photo19.jpg",
-          "description": "lollo-rosso lettuce + Cherry tomatoes + Grilled pineapple + Grilled avocado + Grilled chicken with chef sauce"
-        }
-      ]
-    },
-    {
-      "category_id": "3",
-      "category": "oriental food",
-      "category_name": "oriental food",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/oriental-food",
-      "dishes": [
-        {
-          "id": "3",
-          "name": "Fries",
-          "price": "$4",
-          "photo": "photo18.jpg",
-          "description": "Lorem ipsum dolor"
-        },
-        {
-          "id": "4",
-          "name": "Wings",
-          "price": "$8",
-          "photo": "photo19.jpg",
-          "description": "Lorem ipsum dolor"
-        }
-      ]
-    },
-    {
-      "category_id": "5",
-      "category": "hot appetizers",
-      "category_name": "hot appetizers",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/hot-appetizers",
-      "dishes": [
-        {
-          "id": "11",
-          "name": "Falafel",
-          "price": "15,000 IQD",
-          "photo": "photo24.jpg",
-          "description": "Deep-fried ball or patty made from ground chickpeas, fava beans, or both"
-        },
-        {
-          "id": "12",
-          "name": "Kibbeh",
-          "price": "18,000 IQD",
-          "photo": "photo25.jpg",
-          "description": "Levantine dish made of bulgur, minced onions, and finely ground lean beef, lamb, goat, or camel meat"
-        }
-      ]
-    },
-    {
-      "category_id": "6",
-      "category": "Ribs",
-      "category_name": "Ribs",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/ribs",
-      "dishes": [
-        {
-          "id": "13",
-          "name": "Pork Ribs",
-          "price": "25,000 IQD",
-          "photo": "photo26.jpg",
-          "description": "Slow-cooked pork ribs in BBQ sauce"
-        },
-        {
-          "id": "14",
-          "name": "Beef Ribs",
-          "price": "30,000 IQD",
-          "photo": "photo27.jpg",
-          "description": "Slow-cooked beef ribs in BBQ sauce"
-        }
-      ]
-    },
-    {
       "category_id": "7",
-      "category": "Brisket",
-      "category_name": "Brisket",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/brisket",
-      "dishes": [
+      "category": "cold drinks",
+      "category_name": "المشروبات الباردة",
+      "category_photo": "/drinks/cold/category6.jpg",
+      "link": "dishes/cold-drinks",
+      "subcategories": [
         {
-          "id": "15",
-          "name": "Smoked Brisket",
-          "price": "35,000 IQD",
-          "photo": "photo28.jpg",
-          "description": "Slow-smoked beef brisket with special rub"
+          "id": "1",
+          "name": "العصائر الطبيعية",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "فريش باينبل",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/category6.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "موز وحليب",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "عصير برتقال",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/14.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "ليمون ونعناع",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/15.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "ليمونادة",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/16.jpg",
+              "description": ""
+            },
+            {
+              "id": "6",
+              "name": "مانغو فريش",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/17.jpg",
+              "description": ""
+            },
+            {
+              "id": "7",
+              "name": "رقي",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/18.jpg",
+              "description": ""
+            },
+            {
+              "id": "8",
+              "name": "مكس بيري",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            },
+            {
+              "id": "9",
+              "name": "موز وحليب",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            },
+            {
+              "id": "10",
+              "name": "عصير بطيخ",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/167.jpg",
+              "description": ""
+            },
+            {
+              "id": "11",
+              "name": "رمان فريش",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/168.jpg",
+              "description": ""
+            },
+            {
+              "id": "12",
+              "name": "موز وحليب",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            },
+            {
+              "id": "13",
+              "name": "موز وحليب",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            },
+            {
+              "id": "14",
+              "name": "موز وحليب",
+              "price": "6,000 IQD",
+              "photo": "/drinks/cold/13.jpg",
+              "description": ""
+            }
+          ]
         },
         {
-          "id": "16",
-          "name": "Grilled Brisket",
-          "price": "40,000 IQD",
-          "photo": "photo29.jpg",
-          "description": "Grilled beef brisket with BBQ sauce"
+          "id": "2",
+          "name": "ميلك شيك",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "اوريو شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/160.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "فانيلا شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/164.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "كيت كات ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/162.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "كندر ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/161.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "لوتس ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/163.jpg",
+              "description": ""
+            },
+            {
+              "id": "6",
+              "name": "سيريلاك ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/164.jpg",
+              "description": ""
+            },
+            {
+              "id": "7",
+              "name": "ستروبيري شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/165.jpg",
+              "description": ""
+            },
+            {
+              "id": "8",
+              "name": "نوتيلا شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/166.jpg",
+              "description": ""
+            }
+          ]
         }
       ]
     },
     {
       "category_id": "8",
-      "category": "Grill",
-      "category_name": "Grill",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/grill",
-      "dishes": [
-        {
-          "id": "17",
-          "name": "Mixed Grill Platter",
-          "price": "50,000 IQD",
-          "photo": "photo30.jpg",
-          "description": "Assorted grilled meats including chicken, beef, and lamb"
-        },
-        {
-          "id": "18",
-          "name": "Shish Kebab",
-          "price": "18,000 IQD",
-          "photo": "photo31.jpg",
-          "description": "Skewered and grilled cubes of meat"
-        }
-      ]
-    },
-    {
-      "category_id": "9",
-      "category": "American Pizza",
-      "category_name": "American Pizza",
+      "category": "hot drinks",
+      "category_name": "المشروبات الحارة",
       "category_photo": "photo17.jpg",
       "link": "dishes/american-pizza",
       "dishes": [
@@ -199,140 +645,711 @@
       ]
     },
     {
-      "category_id": "10",
-      "category": "Smoked Lamb",
-      "category_name": "Smoked Lamb",
+      "category_id": "9",
+      "category": "shisha",
+      "category_name": "الاراكيل",
       "category_photo": "photo17.jpg",
-      "link": "dishes/smoked-lamb",
-      "dishes": [
+      "link": "dishes/shisha",
+      "subcategories": [
         {
-          "id": "21",
-          "name": "Smoked Lamb Shank",
-          "price": "40,000 IQD",
-          "photo": "photo34.jpg",
-          "description": "Slow-smoked lamb shank with rosemary and garlic"
+          "id": "1",
+          "name": "بابلي",
+          "shishas": [
+            {
+              "id": "1",
+              "name": "علك",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "2",
+              "name": "علك و نعناع",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "3",
+              "name": "ليمون",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "4",
+              "name": "ليمون و نعناع",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "5",
+              "name": "تفاحتين خلطه",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "6",
+              "name": "تفاحتين فاخر",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "7",
+              "name": "تفاحتين نخله",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "8",
+              "name": "عنب",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "9",
+              "name": "عنب نعناع",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "10",
+              "name": "بغدادي",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "11",
+              "name": "كاسترو",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "12",
+              "name": "علك شمام",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "13",
+              "name": "علك مستكه",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "14",
+              "name": "انكليزي",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "15",
+              "name": "فواكه حلوه",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "16",
+              "name": "فواكه حمضيات",
+              "price": "11,000 IQD"
+            },
+            {
+              "id": "17",
+              "name": "ايس كريم",
+              "price": "11,000 IQD"
+            }
+          ]
         },
         {
-          "id": "22",
-          "name": "Grilled Lamb Chops",
-          "price": "35,000 IQD",
-          "photo": "photo35.jpg",
-          "description": "Grilled lamb chops seasoned with herbs and spices"
+          "id": "2",
+          "name": "الماني",
+          "shishas": [
+            {
+              "id": "1",
+              "name": "علك",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "2",
+              "name": "علك و نعناع",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "3",
+              "name": "ليمون",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "4",
+              "name": "ليمون و نعناع",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "5",
+              "name": "تفاحتين خلطه",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "6",
+              "name": "تفاحتين فاخر",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "7",
+              "name": "تفاحتين نخله",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "8",
+              "name": "عنب",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "9",
+              "name": "عنب نعناع",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "10",
+              "name": "بغدادي",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "11",
+              "name": "كاسترو",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "12",
+              "name": "علك شمام",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "13",
+              "name": "علك مستكه",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "14",
+              "name": "انكليزي",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "15",
+              "name": "فواكه حلوه",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "16",
+              "name": "فواكه حمضيات",
+              "price": "13,000 IQD"
+            },
+            {
+              "id": "17",
+              "name": "ايس كريم",
+              "price": "13,000 IQD"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "طبيعي",
+          "shishas": [
+            {
+              "id": "1",
+              "name": "علك",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "2",
+              "name": "علك و نعناع",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "3",
+              "name": "ليمون",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "4",
+              "name": "ليمون و نعناع",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "5",
+              "name": "تفاحتين خلطه",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "6",
+              "name": "تفاحتين فاخر",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "7",
+              "name": "تفاحتين نخله",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "8",
+              "name": "عنب",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "9",
+              "name": "عنب نعناع",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "10",
+              "name": "بغدادي",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "11",
+              "name": "كاسترو",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "12",
+              "name": "علك شمام",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "13",
+              "name": "علك مستكه",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "14",
+              "name": "انكليزي",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "15",
+              "name": "فواكه حلوه",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "16",
+              "name": "فواكه حمضيات",
+              "price": "16,000 IQD"
+            },
+            {
+              "id": "17",
+              "name": "ايس كريم",
+              "price": "16,000 IQD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "10",
+      "category": "sweets",
+      "category_name": "الحلويات",
+      "category_photo": "/sweets/category5.jpg",
+      "link": "dishes/sweets",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "نوتيلا كريب",
+          "price": "6,000 IQD",
+          "photo": "/sweets/nutella.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "كريب رول",
+          "price": "6,000 IQD",
+          "photo": "/sweets/11.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "كريب كيدز",
+          "price": "6,000 IQD",
+          "photo": "/sweets/master.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "ماستر كريب",
+          "price": "7,000 IQD",
+          "photo": "/sweets/nutella.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "اوريو كريب",
+          "price": "6,000 IQD",
+          "photo": "/sweets/14.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "نوتيلا كريب",
+          "price": "6,000 IQD",
+          "photo": "/sweets/nutella.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "لوتوس كريب",
+          "price": "6,000 IQD",
+          "photo": "/sweets/16.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "فواكه كريب",
+          "price": "7,000 IQD",
+          "photo": "/sweets/15.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "كيت كات كريب",
+          "price": "6,000 IQD",
+          "photo": "/sweets/111.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "نوتيلا وافل",
+          "price": "6,000 IQD",
+          "photo": "/sweets/18.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "لوتوس وافل",
+          "price": "6,000 IQD",
+          "photo": "/sweets/112.jpg",
+          "description": ""
+        },
+        {
+          "id": "12",
+          "name": "كيدز وافل",
+          "price": "6,000 IQD",
+          "photo": "/sweets/19.jpg",
+          "description": ""
+        },
+        {
+          "id": "13",
+          "name": "اوريو وافل",
+          "price": "6,000 IQD",
+          "photo": "/sweets/110.jpg",
+          "description": ""
+        },
+        {
+          "id": "14",
+          "name": "فواكه وافل",
+          "price": "7,000 IQD",
+          "photo": "/sweets/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "15",
+          "name": "كيت كات وافل",
+          "price": "6,000 IQD",
+          "photo": "/sweets/114.jpg",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "name": "ايس كريم",
+          "price": "4,000 IQD",
+          "photo": "/sweets/114.jpg",
+          "description": ""
         }
       ]
     },
     {
       "category_id": "11",
-      "category": "Burger & Sandwiches",
-      "category_name": "Burger & Sandwiches",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/burger-and-sandwiches",
+      "category": "american pizza",
+      "category_name": "البيتزا الامريكية",
+      "category_photo": "/pizza/category4.jpg",
+      "link": "dishes/american-pizza",
       "dishes": [
         {
-          "id": "23",
-          "name": "Classic Burger",
-          "price": "12,000 IQD",
-          "photo": "photo36.jpg",
-          "description": "Beef patty, lettuce, tomato, onion, pickles, and special sauce in a bun"
+          "id": "1",
+          "name": "بيتزا ستيك",
+          "price": "26,000 IQD",
+          "photo": "/pizza/category4.jpg",
+          "description": ""
         },
         {
-          "id": "24",
-          "name": "Chicken Sandwich",
-          "price": "14,000 IQD",
-          "photo": "photo37.jpg",
-          "description": "Grilled chicken breast, lettuce, tomato, and mayonnaise in a bun"
+          "id": "2",
+          "name": "بيتزا ستيك",
+          "price": "26,000 IQD",
+          "photo": "/pizza/category4.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "بيتزا بيبروني",
+          "price": "12,000 IQD",
+          "photo": "/pizza/11.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "بيتزا دجاج باربيكيو",
+          "price": "12,000 IQD",
+          "photo": "/pizza/14.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "بيتزا بريسكت",
+          "price": "18,000 IQD",
+          "photo": "/pizza/12.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "بيتزا مارغريتا",
+          "price": "12,000 IQD",
+          "photo": "/pizza/13.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "تشيكن الفريدو",
+          "price": "18,000 IQD",
+          "photo": "/pizza/16.jpg",
+          "description": ""
         }
       ]
     },
     {
       "category_id": "12",
-      "category": "Shisha",
-      "category_name": "Shisha",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/shisha",
+      "category": "burger",
+      "category_name": "البرجر والسانوديشات",
+      "category_photo": "/burger/15.jpg",
+      "link": "dishes/burger-and-sandwiches",
       "dishes": [
         {
-          "id": "25",
-          "name": "Apple Flavored Shisha",
-          "price": "20,000 IQD",
-          "photo": "photo38.jpg",
-          "description": "Hookah tobacco with a sweet apple flavor"
+          "id": "1",
+          "name": "كلاسيك برجر",
+          "price": "10,000 IQD",
+          "photo": "/burger/13.jpg",
+          "description": "140 جرام لحم مشوي ، ماستر صوص ، بصل مكرمل ، خس. مخللات. طماطم."
         },
         {
-          "id": "26",
-          "name": "Mint Flavored Shisha",
-          "price": "20,000 IQD",
-          "photo": "photo39.jpg",
-          "description": "Hookah tobacco with a refreshing mint flavor"
+          "id": "2",
+          "name": "تشيز برجر",
+          "price": "11,000 IQD",
+          "photo": "/burger/14.jpg",
+          "description": "140 جرام لحم مشوي ، ماستر صوص ، بصل مكرمل ، خس ، مخلل ، طماطم ، جبنة شيدر"
+        },
+        {
+          "id": "3",
+          "name": "هالبينو برجر",
+          "price": "11,000 IQD",
+          "photo": "/burger/16.jpg",
+          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، هلابينو ، خس ، مخلل ، طماطم. جبنة الشيدر"
+        },
+        {
+          "id": "4",
+          "name": "روكا برجر",
+          "price": "10,000 IQD",
+          "photo": "/burger/18.jpg",
+          "description": "140 جرام لحم مشوي ، ماستر صوص ، بصل مكرمل ، جرجير. مخللات. طماطم."
+        },
+        {
+          "id": "5",
+          "name": "ماستر برجر",
+          "price": "12,000 IQD",
+          "photo": "/burger/114.jpg",
+          "description": "140 جرام لحم مشوي ، ماستر صوص ، بصل مكرمل ، خس. مخللات. طماطم."
+        },
+        {
+          "id": "7",
+          "name": "برجر مشروم",
+          "price": "11,000 IQD",
+          "photo": "/burger/110.jpg",
+          "description": "140 جرام لحم مشوي. ماستر صوص ، بصل مكرمل ، مخلل ، مشروم ، جبنة شيدر"
+        },
+        {
+          "id": "8",
+          "name": "تشيكن برجر",
+          "price": "7,000 IQD",
+          "photo": "/burger/111.jpg",
+          "description": "140 جرام دجاج مشوي ، ماستر صوص ، مخلل ، خس ، طماطم "
+        },
+        {
+          "id": "9",
+          "name": "واغيو تشيز برجر",
+          "price": "13,000 IQD",
+          "photo": "/burger/112.jpg",
+          "description": "140 جرام لحم مشوي ، ماستر صوص ، بصل مكرمل ، شريحتين من جبنة الموزاريلا المقرمشة."
+        },
+        {
+          "id": "10",
+          "name": "B&F برجر",
+          "price": "11,000 IQD",
+          "photo": "/burger/113.jpg",
+          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، شرحات ، فنكر ، مخلل ، 2 حلقات بصل مقرمشة. جبنة الشيدر"
+        },
+        {
+          "id": "11",
+          "name": "دوريتوس برجر",
+          "price": "11,000 IQD",
+          "photo": "/burger/17.jpg",
+          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، دوريتوس ، جبنة شيدر ، مخلل"
+        },
+        {
+          "id": "12",
+          "name": "M&M برجر",
+          "price": "16,000 IQD",
+          "photo": "/burger/15.jpg",
+          "description": "140 جرام لحم ، 100 جرام لحم مدخن ومشوي ، بصل كراميل ، جبنة شيدر."
+        },
+        {
+          "id": "13",
+          "name": "سندويتش شرحات لحم مع جبنة شيدر",
+          "price": "14,000 IQD",
+          "photo": "/burger/11.jpg",
+          "description": "140 جرام لحم ، 100 جرام لحم مدخن ومشوي ، بصل كراميل ، جبنة شيدر."
+        },
+        {
+          "id": "14",
+          "name": "دبل ماستر برغر",
+          "price": "16,000 IQD",
+          "photo": "/burger/19.jpg",
+          "description": "280 غرام من اللحم المشوي. ماستر صوص.بصل مكرمل .حبش .خس .مخلل.طماطم .جبنة شيدر"
+        },
+        {
+          "id": "15",
+          "name": "فاهيتا دجاج",
+          "price": "7,000 IQD",
+          "photo": "/burger/12.jpg",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "name": "فاهيتا لحم",
+          "price": "9,000 IQD",
+          "photo": "/burger/203.jpg",
+          "description": ""
+        },
+        {
+          "id": "17",
+          "name": "سندويتش ستيك ريب آي",
+          "price": "32,000 IQD",
+          "photo": "/burger/202.jpg",
+          "description": ""
         }
       ]
     },
     {
       "category_id": "13",
-      "category": "cold drinks",
-      "category_name": "cold drinks",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/cold-drinks",
+      "category": "box",
+      "category_name": "بوكس وجبة",
+      "category_photo": "/box/category11.jpg",
+      "link": "dishes/box-meals",
       "dishes": [
         {
-          "id": "27",
-          "name": "Fresh Orange Juice",
-          "price": "8,000 IQD",
-          "photo": "photo40.jpg",
-          "description": "Freshly squeezed orange juice"
+          "id": "1",
+          "name": "بوكس لشخص واحد",
+          "price": "20,000 IQD",
+          "photo": "/box/14.jpg",
+          "description": "1 برجر، 200 جرام لحم بريسكت، 6 حلقات بصل، 50 جرام سباجيتي، 1 مياه + 1 مشروب غازي + بطاطس وصلصات"
         },
         {
-          "id": "28",
-          "name": "Iced Coffee",
-          "price": "10,000 IQD",
-          "photo": "photo41.jpg",
-          "description": "Chilled coffee served with ice cubes"
+          "id": "2",
+          "name": "بوكس لشخصين",
+          "price": "28,000 IQD",
+          "photo": "/box/11.jpg",
+          "description": "2 برجر، 200 جرام لحم بريسكت، 6 حلقات بصل، 100 جرام سباجيتي، 2 مياه + 2 مشروب غازي + بطاطس وصلصات"
+        },
+        {
+          "id": "3",
+          "name": "بوكس ل ثلاث اشخاص",
+          "price": "44,000 IQD",
+          "photo": "/box/13.jpg",
+          "description": "13 برجر، 400 جرام لحم بريسكت، 9 حلقات بصل، 150 جرام سباجيتي، 3 مياه + 3 مشروب غازي + بطاطس وصلصات"
+        },
+        {
+          "id": "4",
+          "name": "بوكس ل اربع اشخاص",
+          "price": "56,000 IQD",
+          "photo": "/box/12.jpg",
+          "description": "4 برجر، 400 جرام لحم بريسكت، 12 حلقات بصل، 200 جرام سباجيتي، 4 مياه + 4 مشروب غازي + بطاطس وصلصات"
         }
       ]
     },
     {
       "category_id": "14",
-      "category": "Kids Meals and Drinks",
-      "category_name": "Kids Meals and Drinks",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/kids-meals-and-drinks",
+      "category": "brisket",
+      "category_name": "بريسكت",
+      "category_photo": "/brisket/category2.jpg",
+      "link": "dishes/brisket",
       "dishes": [
         {
-          "id": "29",
-          "name": "Kids Chicken Nuggets",
-          "price": "10,000 IQD",
-          "photo": "photo42.jpg",
-          "description": "Chicken nuggets served with fries"
+          "id": "1",
+          "name": "350 جرام لحم بريسكيت المدخن",
+          "price": "28,000 IQD",
+          "photo": "/brisket/category2.jpg",
+          "description": ""
         },
         {
-          "id": "30",
-          "name": "Kids Cheese Pizza",
-          "price": "10,000 IQD",
-          "photo": "photo43.jpg",
-          "description": "Small cheese pizza suitable for kids"
+          "id": "2",
+          "name": "700 جرام لحم بريسكيت المدخن",
+          "price": "45,000 IQD",
+          "photo": "/brisket/category2.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "1 كغ من لحم بريسكيت المدخن",
+          "price": "75,000 IQD",
+          "photo": "/brisket/category2.jpg",
+          "description": ""
         }
       ]
     },
     {
       "category_id": "15",
-      "category": "Raw Meat",
-      "category_name": "Raw Meat",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/raw-meat",
+      "category": "smoked",
+      "category_name": "الضلوع المدخنة",
+      "category_photo": "/smoked/lambsteaks.jpg",
+      "link": "dishes/smoked-lamb",
       "dishes": [
         {
-          "id": "31",
-          "name": "Beef Fillet",
-          "price": "30,000 IQD",
-          "photo": "photo44.jpg",
-          "description": "Fresh beef fillet ready for cooking"
+          "id": "1",
+          "name": "ستيك ضلوع الغنم",
+          "price": "27,000 IQD",
+          "photo": "/smoked/lambsteaks.jpg",
+          "description": ""
         },
         {
-          "id": "32",
-          "name": "Lamb Chops",
-          "price": "25,000 IQD",
-          "photo": "photo45.jpg",
-          "description": "Tender lamb chops for grilling or frying"
+          "id": "2",
+          "name": "لامب شانك مدخن  500 جرام",
+          "price": "27,000 IQD",
+          "photo": "/smoked/44.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "ضلوع غنم مدخنة 500 جرام",
+          "price": "27,000 IQD",
+          "photo": "/smoked/22.jpg",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category_id": "16",
+      "category": "cow",
+      "category_name": "خدود البقر",
+      "category_photo": "/cheeks/smokedcheeks.jpg",
+      "link": "dishes/cow-cheeks",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "250 جرام خد لحم بقري مدخن",
+          "price": "28,000 IQD",
+          "photo": "/cheeks/smokedcheeks.jpg",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "500 جرام خد لحم بقري مدخن",
+          "price": "42,000 IQD",
+          "photo": "/cheeks/smokedcheeks.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "1 كجم خد لحم بقري مدخن",
+          "price": "75,000 IQD",
+          "photo": "/cheeks/smokedcheeks.jpg",
+          "description": ""
         }
       ]
     }

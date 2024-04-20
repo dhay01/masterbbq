@@ -24,6 +24,7 @@ function HomeMenu({ categories }) {
 
     const [imageIndex, setImageIndex] = useState(0);
 
+
     const settings = {
         infinite: true,
         lazyLoad: true,
@@ -39,6 +40,7 @@ function HomeMenu({ categories }) {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
+
                 },
             },
         ],
@@ -61,7 +63,7 @@ function HomeMenu({ categories }) {
 
                                 <div className="card slide rounded">
                                     <Link href={`/menu/${category.link}`}>
-                                        <Image src={`/images/${category.category_photo}`} alt={category.name} width={300} height={300} />
+                                        <img src={`/images/${category.category_photo}`} className="card-img object-cover aspect-ratio-square md:w-20 " alt={category.name}/>
                                         <h2>{category.category_name}</h2>
                                     </Link>
                                 </div>

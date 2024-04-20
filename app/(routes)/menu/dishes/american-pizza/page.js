@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function Pizza() {
     // Find the category with id=1 (Box Meal)
-    const PizzaCategory = menu.find((category) => category.category_id === "9");
+    const PizzaCategory = menu.find((category) => category.category_id === "11");
 
 
     if (PizzaCategory) {
         return (
             <div>
                 <main className="">
-                    <div className="hero" style={{backgroundImage: `url(/images/${PizzaCategory.category_photo})`, minHeight: '600px'}}>
+                    <div className="hero" style={{backgroundImage: `url(/images/${PizzaCategory.category_photo})`, minHeight: '450px'}}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -25,7 +25,7 @@ export default function Pizza() {
                             {PizzaCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card w-96 bg-base-100 shadow-xl">
                                     <figure className="px-10 pt-10">
-                                        <img src={`/images/${dish.photo}`} alt={dish.name} className="rounded-xl" />
+                                        <img src={`/images/${dish.photo}`} alt={dish.name} className="rounded-xl card-img" />
                                     </figure>
                                     <div className="card-body items-center text-center">
                                         <h2 className="card-title">{dish.name}</h2>

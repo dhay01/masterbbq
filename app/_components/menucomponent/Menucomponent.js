@@ -20,11 +20,11 @@ const Menu = ({ categories }) => {
                 <div className="flex justify-center pt-10">
                     <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-16">
                         {categories.map((category) => (
-                            <div key={category.id} className="card w-96 bg-base-100 shadow-xl">
+                            <div key={category.id} className="card w-96 md:w-[300px] bg-base-100 shadow-xl">
                                 <Link href={`/menu/${category.link}`}>
                                     <div className="image-container">
                                         <figure className="px-10 pt-10">
-                                            <img src={`/images/${category.category_photo}`} alt={category.category_name} className="rounded-xl" />
+                                            <img src={`/images/${category.category_photo}`} alt={category.category_name} className="card-img rounded-xl" />
                                         </figure>
 
                                     </div>
