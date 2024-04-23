@@ -376,35 +376,35 @@
           "id": "2",
           "name": "بابا غنوج",
           "price": "5,000 IQD",
-          "photo": "/appetizers/cold/13.jpg",
+          "photo": "/appetizers/cold/category9.jpg",
           "description": ""
         },
         {
           "id": "3",
           "name": "بيروتية",
           "price": "5,000 IQD",
-          "photo": "/appetizers/cold/13.jpg",
+          "photo": "/appetizers/cold/16.jpg",
           "description": ""
         },
         {
           "id": "4",
           "name": "حمص بطحينة مع بريسكت",
           "price": "8,000 IQD",
-          "photo": "/appetizers/cold/13.jpg",
+          "photo": "/appetizers/cold/14.jpg",
           "description": ""
         },
         {
           "id": "5",
           "name": "ورق عنب",
           "price": "5,000 IQD",
-          "photo": "/appetizers/cold/13.jpg",
+          "photo": "/appetizers/cold/yalanji.jpg",
           "description": ""
         },
         {
           "id": "6",
           "name": "متبل باذنجان",
           "price": "5,000 IQD",
-          "photo": "/appetizers/cold/13.jpg",
+          "photo": "/appetizers/cold/15.jpg",
           "description": ""
         }
       ]
@@ -413,36 +413,92 @@
       "category_id": "6",
       "category": "salads",
       "category_name": "السلطات",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/box-meals",
+      "category_photo": "/salads/4.jpg",
+      "link": "dishes/salads",
       "dishes": [
         {
           "id": "1",
-          "name": "Box For 1 Person",
-          "price": "20,000 IQD",
-          "photo": "photo17.jpg",
-          "description": "1 Burger, 200 g of brisket meat, 6 onion rings, 50 g Spaghetti, 1 water + 1 soft drink + fries and sauces"
+          "name": "سلطة تكساس ستيك",
+          "price": "18,000 IQD",
+          "photo": "/salads/4.jpg",
+          "description": ""
         },
         {
           "id": "2",
-          "name": "Box For 2 people",
-          "price": "28,000 IQD",
-          "photo": "photo17.jpg",
-          "description": "2 Burger, 200 g of brisket meat, 6 onion rings, 100 g Spaghetti, 2 water + 2 soft drink + fries and sauces"
+          "name": "سلطة ماستر فرايز",
+          "price": "10,000 IQD",
+          "photo": "/salads/5.jpg",
+          "description": ""
         },
         {
           "id": "3",
-          "name": "Box For 3 people",
-          "price": "44,000 IQD",
-          "photo": "photo17.jpg",
-          "description": "3 Burger, 400 g of brisket meat, 9 onion rings, 150 g Spaghetti, 3 water + 3 soft drink + fries and sauces"
+          "name": "سلطة دجاج سيزر",
+          "price": "10,000 IQD",
+          "photo": "/salads/7.jpg",
+          "description": ""
         },
         {
           "id": "4",
-          "name": "Box For 4 people",
-          "price": "56,000 IQD",
-          "photo": "photo17.jpg",
-          "description": "4 Burger, 400 g of brisket meat, 12 onion rings, 200 g Spaghetti, 4 water + 4 soft drink + fries and sauces"
+          "name": "سلطة الافوكادو",
+          "price": "12,000 IQD",
+          "photo": "/salads/3.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "سلطة روكا",
+          "price": "8,000 IQD",
+          "photo": "/salads/6.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "سلطة باربيكيو",
+          "price": "14,000 IQD",
+          "photo": "/salads/1.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "سلطة مكس ",
+          "price": "18,000 IQD",
+          "photo": "/salads/2.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": " سلطة VIP",
+          "price": "14,000 IQD",
+          "photo": "/salads/9.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": " سلطة فتوش",
+          "price": "6,000IQD",
+          "photo": "/salads/8.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": " سلطة يونانية ",
+          "price": "8,000 IQD",
+          "photo": "/salads/111.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": " سلطة مانغو ",
+          "price": "12,000 IQD",
+          "photo": "/salads/10.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "سلطة حلوم",
+          "price": "8,000 IQD",
+          "photo": "/salads/11.jpg",
+          "description": ""
         }
       ]
     },
@@ -510,14 +566,7 @@
               "id": "8",
               "name": "مكس بيري",
               "price": "7,000 IQD",
-              "photo": "/drinks/cold/13.jpg",
-              "description": ""
-            },
-            {
-              "id": "9",
-              "name": "موز وحليب",
-              "price": "6,000 IQD",
-              "photo": "/drinks/cold/13.jpg",
+              "photo": "/drinks/cold/130.jpg",
               "description": ""
             },
             {
@@ -533,32 +582,293 @@
               "price": "7,000 IQD",
               "photo": "/drinks/cold/168.jpg",
               "description": ""
-            },
-            {
-              "id": "12",
-              "name": "موز وحليب",
-              "price": "6,000 IQD",
-              "photo": "/drinks/cold/13.jpg",
-              "description": ""
-            },
-            {
-              "id": "13",
-              "name": "موز وحليب",
-              "price": "6,000 IQD",
-              "photo": "/drinks/cold/13.jpg",
-              "description": ""
-            },
-            {
-              "id": "14",
-              "name": "موز وحليب",
-              "price": "6,000 IQD",
-              "photo": "/drinks/cold/13.jpg",
-              "description": ""
             }
           ]
         },
         {
           "id": "2",
+          "name": "ميلك شيك",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "اوريو شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/160.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "فانيلا شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/164.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "كيت كات ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/162.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "كندر ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/161.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "لوتس ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/163.jpg",
+              "description": ""
+            },
+            {
+              "id": "6",
+              "name": "سيريلاك ميلك شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/164.jpg",
+              "description": ""
+            },
+            {
+              "id": "7",
+              "name": "ستروبيري شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/165.jpg",
+              "description": ""
+            },
+            {
+              "id": "8",
+              "name": "نوتيلا شيك",
+              "price": "7,000 IQD",
+              "photo": "/drinks/cold/166.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "موهيتو",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "موهيتو بلوبيري",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mojito_blueberry.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "موهيتو فراولة",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mojito_strawberry.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "موهيتو ماستر",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mojito_master.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "موهيتو مانغو",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mojito_mango.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "موهيتو ريد بيري",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mojito_red_berry.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "سموذي",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "سموذي مانغو",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/mango_smoothie.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "سموذي بلوبيري",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/blueberry_smoothie.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "سموذي ماستر",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/master_smoothie.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "سموذي بنانا",
+              "price": "8,000 IQD",
+              "photo": "/drinks/cold/banana_smoothie.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "مشروبات غازية",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "كولا",
+              "price": "3,000 IQD",
+              "photo": "/drinks/cold/cola.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "كولا زيرو",
+              "price": "3,000 IQD",
+              "photo": "/drinks/cold/diet_cola.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "فانتا",
+              "price": "3,000 IQD",
+              "photo": "/drinks/cold/fanta.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "سبرايت",
+              "price": "3,000 IQD",
+              "photo": "/drinks/cold/sprite.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "صودا سادة",
+              "price": "2,000 IQD",
+              "photo": "/drinks/cold/plain_soda.jpg",
+              "description": ""
+            },
+            {
+              "id": "6",
+              "name": "صودا ليمون",
+              "price": "2,000 IQD",
+              "photo": "/drinks/cold/lemon_soda.jpg",
+              "description": ""
+            },
+            {
+              "id": "15",
+              "name": "مياه",
+              "price": "1,000 IQD",
+              "photo": "",
+              "description": ""
+            },
+            {
+              "id": "16",
+              "name": "مياه معدنية",
+              "price": "1,000 IQD",
+              "photo": "",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "ماستر",
+          "drinks": [
+            {
+              "id": "1",
+              "name": "ماستر رمان",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_pomegranate.jpg",
+              "description": ""
+            },
+            {
+              "id": "2",
+              "name": "ماستر فراولة",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_strawberry.jpg",
+              "description": ""
+            },
+            {
+              "id": "3",
+              "name": "ماستر كيوي",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_kiwi.jpg",
+              "description": ""
+            },
+            {
+              "id": "4",
+              "name": "ماستر بيري",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_berry.jpg",
+              "description": ""
+            },
+            {
+              "id": "5",
+              "name": "ماستر ابل",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_apple.jpg",
+              "description": ""
+            },
+            {
+              "id": "6",
+              "name": "ماستر ليمون",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_lemon.jpg",
+              "description": ""
+            },
+            {
+              "id": "7",
+              "name": "ماستر مانغو",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_mango.jpg",
+              "description": ""
+            },
+            {
+              "id": "8",
+              "name": "ماستر ليتشي",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_lychee.jpg",
+              "description": ""
+            },
+            {
+              "id": "9",
+              "name": "ماستر بلو هاواي",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_blue_hawaii.jpg",
+              "description": ""
+            },
+            {
+              "id": "10",
+              "name": "ماستر ميلون",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_melon.jpg",
+              "description": ""
+            },
+            {
+              "id": "11",
+              "name": "ماستر عنب",
+              "price": "5,000 IQD",
+              "photo": "/drinks/cold/master_grapes.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "7",
           "name": "ميلك شيك",
           "drinks": [
             {
@@ -625,22 +935,162 @@
       "category_id": "8",
       "category": "hot drinks",
       "category_name": "المشروبات الحارة",
-      "category_photo": "photo17.jpg",
-      "link": "dishes/american-pizza",
+      "category_photo": "/drinks/hot/category7.jpg",
+      "link": "dishes/hot-drinks",
       "dishes": [
         {
-          "id": "19",
-          "name": "Pepperoni Pizza",
-          "price": "15,000 IQD",
-          "photo": "photo32.jpg",
-          "description": "Classic pizza topped with pepperoni slices"
+          "id": "1",
+          "name": "فرابتشينو",
+          "price": "6,000 IQD",
+          "photo": "/drinks/hot/112.jpg",
+          "description": ""
         },
         {
+          "id": "2",
+          "name": "سبانش لاتيه",
+          "price": "7,000 IQD",
+          "photo": "/drinks/hot/112.jpg",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "تركش كوفي",
+          "price": "3,000 IQD",
+          "photo": "/drinks/hot/112.jpg",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "كوفي بستاشيو",
+          "price": "3,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "نوتيلا ديكريما",
+          "price": "7,000 IQD",
+          "photo": "/drinks/hot/112.jpg",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "سحلب",
+          "price": "4,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "لاتيه كابتشينو",
+          "price": "5,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "فانيلا لاتيه",
+          "price": "6,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "كاراميل لاتيه",
+          "price": "6,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "كاراميل جوكلت",
+          "price": "6,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "سنكل اسبريسو",
+          "price": "3,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "12",
+          "name": "دبل اسبريسو",
+          "price": "5,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "13",
+          "name": "كوفي موكا",
+          "price": "6,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "14",
+          "name": "نسكافية بلاك",
+          "price": "5,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "15",
+          "name": "امريكانو كافيه",
+          "price": "5,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "name": "هوت جوكلت",
+          "price": "4,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },{
+          "id": "17",
+          "name": "ماكياتو",
+          "price": "3,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },{
+          "id": "18",
+          "name": "كمون ليمون",
+          "price": "2,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },{
+          "id": "19",
+          "name": "سينامون تي",
+          "price": "2,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },{
           "id": "20",
-          "name": "Margherita Pizza",
-          "price": "12,000 IQD",
-          "photo": "photo33.jpg",
-          "description": "Traditional pizza topped with tomato, mozzarella, and basil"
+          "name": "سينامون تي",
+          "price": "2,000 IQD",
+          "photo": "/drinks/hot/113.jpg",
+          "description": ""
+        },{
+          "id": "21",
+          "name": "بابونج – شاي اخضر – زهورات شامية",
+          "price": "2,000 IQD",
+          "photo": "/drinks/hot/122.jpg",
+          "description": ""
+        },{
+          "id": "22",
+          "name": "شاي",
+          "price": "2,000 IQD",
+          "photo": "/drinks/hot/119.jpg",
+          "description": ""
+        },{
+          "id": "23",
+          "name": "ابريق شاي",
+          "price": "5,000 IQD",
+          "photo": "/drinks/hot/118.jpg",
+          "description": ""
         }
       ]
     },
@@ -648,7 +1098,7 @@
       "category_id": "9",
       "category": "shisha",
       "category_name": "الاراكيل",
-      "category_photo": "photo17.jpg",
+      "category_photo": "/shisha/1.jpg",
       "link": "dishes/shisha",
       "subcategories": [
         {
@@ -934,6 +1384,20 @@
       "link": "dishes/sweets",
       "dishes": [
         {
+          "id": "17",
+          "name": "فطيرة التفاح",
+          "price": "7,000 IQD",
+          "photo": "/sweets/apple.jpg",
+          "description": ""
+        },
+        {
+          "id": "18",
+          "name": "فطيرة الجوز",
+          "price": "7,000 IQD",
+          "photo": "/sweets/pie.jpg",
+          "description": ""
+        },
+        {
           "id": "1",
           "name": "نوتيلا كريب",
           "price": "6,000 IQD",
@@ -1063,41 +1527,34 @@
         },
         {
           "id": "2",
-          "name": "بيتزا ستيك",
-          "price": "26,000 IQD",
-          "photo": "/pizza/category4.jpg",
-          "description": ""
-        },
-        {
-          "id": "3",
           "name": "بيتزا بيبروني",
           "price": "12,000 IQD",
           "photo": "/pizza/11.jpg",
           "description": ""
         },
         {
-          "id": "4",
+          "id": "3",
           "name": "بيتزا دجاج باربيكيو",
           "price": "12,000 IQD",
           "photo": "/pizza/14.jpg",
           "description": ""
         },
         {
-          "id": "5",
+          "id": "4",
           "name": "بيتزا بريسكت",
           "price": "18,000 IQD",
           "photo": "/pizza/12.jpg",
           "description": ""
         },
         {
-          "id": "6",
+          "id": "5",
           "name": "بيتزا مارغريتا",
           "price": "12,000 IQD",
           "photo": "/pizza/13.jpg",
           "description": ""
         },
         {
-          "id": "7",
+          "id": "6",
           "name": "تشيكن الفريدو",
           "price": "18,000 IQD",
           "photo": "/pizza/16.jpg",

@@ -21,7 +21,7 @@ export default function BoxMeal() {
                 </div>
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex justify-center pt-10">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-20 md:gap-y-10 gap-y-20">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-40 gap-y-20">
                             {BoxCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                     <figure className="px-10 pt-10">
@@ -34,7 +34,7 @@ export default function BoxMeal() {
                                     </figure>
                                     <div className="card-body items-center text-center">
                                         <h2 className="card-title">{dish.name}</h2>
-                                        <p>{dish.description}</p>
+                                        <p className="description">{dish.description}</p>
                                         <div className="card-actions">
                                             <button disabled className="btn btn-primary">{dish.price}</button>
                                         </div>

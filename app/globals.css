@@ -2,6 +2,7 @@
 @import 'slick-carousel/slick/slick-theme.css';
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,16 +28,18 @@ body {
 
 }
 
+* {
+    transition: ease-in-out 0.2s;
+
+}
+
+
 .homemenu-container {
     width: 80%;
     text-align: center;
     margin: auto;
 }
 
-* {
-    transition: ease-in-out 0.2s;
-
-}
 
 .slide img {
     width: 300px !important;
@@ -45,10 +48,12 @@ body {
     margin: 0 auto;
     object-fit: cover;
 }
-.slide h2{
+
+.slide h2 {
     font-size: 24px !important;
     margin-top: 20px !important;
 }
+
 .slide {
     transform: scale(0.8);
     transition: transform 300ms;
@@ -65,9 +70,11 @@ body {
     opacity: 1;
 
 }
-.activeSlide:hover{
+
+.activeSlide:hover {
     transform: scale(1.2);
 }
+
 .arrow {
     position: absolute;
     cursor: pointer;
@@ -110,20 +117,21 @@ body {
 }
 
 .contact {
-    width: 90% !important;
+
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    margin-top: 3%;
 }
 
-iframe {
-    border-radius: 10px !important;
-}
+.video-container {
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 3%;
+border-radius: 20px !important;
+    place-items: center;
 
-.video-background {
-    margin-top: 5%;
-    margin-bottom: 5%;
-
+    background-position: center
 }
 
 
@@ -171,17 +179,17 @@ iframe {
 
 /*}*/
 
-.card-img{
+.card-img {
     width: 300px !important;
     height: 300px !important;
 
 }
+
 @media only screen
 
 and (-webkit-min-device-pixel-ratio: 1)
-and (min-device-width : 768px)
-and (max-device-width : 1007px)
-{
+and (min-device-width: 768px)
+and (max-device-width: 1007px) {
     .card-img {
         width: 200px !important;
         height: 200px !important;
@@ -192,10 +200,10 @@ and (max-device-width : 1007px)
 
 .box {
     width: 100%;
-    display:-moz-flex;
-    display:-webkit-flex;
-    display:-ms-flex;
-    display:flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
 }
 
 hr {
@@ -210,4 +218,60 @@ hr {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+}
+
+.description {
+    width: 200px; /* Adjust this value according to your design */
+    overflow: hidden; /* Optional: hide overflow if the description is too long */
+    text-overflow: ellipsis; /* Optional: add ellipsis for overflow text */
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    margin: 00px;
+    padding: 0;
+}
+
+/*----------------*/
+.cr {
+    width: 200px;
+    padding: 16px;
+    position: absolute;
+    text-align: center;
+    color: #f0f0f0;
+    z-index: 1; /* Ensure the ribbon appears above the image */
+}
+
+/* Positions */
+.cr-top    { top: 25px; }
+.cr-bottom { bottom: 25px; }
+.cr-left   { left: -50px; }
+.cr-right  { right: -50px; }
+
+/* Rotations */
+.cr-top.cr-left,
+.cr-bottom.cr-right {
+    transform: rotate(-45deg);
+}
+
+.cr-top.cr-right,
+.cr-bottom.cr-left {
+    transform: rotate(45deg);
+}
+
+/* Colors */
+.cr-red { background-color: #e43; }
+
+.ribbon-container {
+    position: relative;
+    display: inline-block; /* Ensure the container only takes the space of its content */
+}
+
+.image-container {
+    position: relative; /* Ensure the image inside will position relative to this container */
+    overflow: hidden;
 }

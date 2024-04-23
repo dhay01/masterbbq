@@ -87,3 +87,13 @@ W
 'app/(routes)/menu/dishes/sweets/page.js,5/3/537f77bade4d123c7bc0a4a8905afe7c2a929da4
 `
 0app/(routes)/menu/dishes/cold-appetizers/page.js,7/3/73b15f682abaeed32e389cfa50a978a69e427e6a
+F
+app/_api/tsconfig.json,2/a/2a55587e742183ba6e4557457442824973853f53
+E
+app/_api/rawmeat.json,3/a/3ad393aa849e3ef2e6231e51f0adcce06a0b64a5
+X
+(app/_components/home/specials/rawMeat.js,2/7/270b14f8c50c0433d66c0228e49dab37e14acb9a
+Y
+)app/_components/home/specials/specials.js,f/2/f29926b4050517ee8e23b7ef1dc7d9d059157c06
+[
++app/(routes)/menu/dishes/hot-drinks/page.js,8/9/896f710737146360e38be41af7222058c529b4eb

@@ -1,6 +1,5 @@
 import { Tajawal } from "next/font/google";
 import {Noto_Naskh_Arabic}  from "next/font/google";
-
 import "./globals.css";
 
 import Layout from "@/app/_components/layout/Layout";

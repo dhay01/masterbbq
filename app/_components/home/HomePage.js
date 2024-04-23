@@ -8,6 +8,7 @@ import VideoComponent from "@/app/_components/home/video/Video";
 import Carousel from "@/app/_components/home/carousel/Carousel";
 import {statics} from "@/app/_api/statics.json";
 import Contact from "@/app/_components/home/contact-info/Contact";
+import Specials from "@/app/_components/home/specials/specials";
 
 export default function HomePage() {
     return (
@@ -16,9 +17,10 @@ export default function HomePage() {
             <Hero/>
             <HomeMenu categories={menu}/>
            <VideoComponent/>
-            <Carousel  />
-            <Contact />
+            <Specials/>
 
+            <Contact />
+            <Carousel  />
         </div>
     );
 }
