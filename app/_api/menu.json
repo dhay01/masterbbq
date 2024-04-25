@@ -644,31 +644,36 @@
               "price": "7,000 IQD",
               "photo": "/drinks/cold/166.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "9",
               "name": "ماستر كتس",
               "price": "9,000 IQD",
               "photo": "/drinks/cold/127.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "10",
               "name": "كوكيز",
               "price": "9,000 IQD",
               "photo": "/drinks/cold/128.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "11",
               "name": "تانغو سويستا",
               "price": "7,000 IQD",
               "photo": "/drinks/cold/129.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "12",
               "name": "ماستر لوتوس",
               "price": "8,000 IQD",
               "photo": "/drinks/cold/131.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "13",
               "name": "ماستر لوتوس",
               "price": "8,000 IQD",
@@ -751,7 +756,8 @@
               "description": ""
             }
           ]
-        }, {
+        },
+        {
           "id": "4",
           "name": "لاتيه",
           "drinks": [
@@ -913,19 +919,22 @@
               "price": "4,000 IQD",
               "photo": "/drinks/cold/156.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "12",
               "name": "بلاك بيري",
               "price": "4,000 IQD",
               "photo": "/drinks/cold/157.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "13",
               "name": "ستروبيري",
               "price": "6,000 IQD",
               "photo": "/drinks/cold/155.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "14",
               "name": "  كوكونات",
               "price": "6,000 IQD",
@@ -960,7 +969,8 @@
               "description": ""
             }
           ]
-        },{
+        },
+        {
           "id": "8",
           "name": "مشروبات الطاقة",
           "drinks": [
@@ -984,13 +994,15 @@
               "price": "5,000 IQD",
               "photo": "/drinks/cold/124.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "4",
               "name": "ريد بل فروت",
               "price": "7,000 IQD",
               "photo": "/drinks/cold/125.jpg",
               "description": ""
-            },{
+            },
+            {
               "id": "5",
               "name": "ماستر انرجي",
               "price": "7,000 IQD",
@@ -1099,7 +1111,6 @@
           "photo": "/drinks/hot/111.jpg",
           "description": ""
         },
-
         {
           "id": "15",
           "name": "امريكانو كافيه",
