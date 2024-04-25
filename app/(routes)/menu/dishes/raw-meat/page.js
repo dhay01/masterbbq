@@ -25,8 +25,8 @@ const Rawmeat = () => {
                                         />
                                     </figure>
                                     <div className="card-body items-center text-center">
-                                        <h2 className="card-title">{rawmeat.name}</h2>
-                                        <h2 className="card-title">{rawmeat.price}</h2>
+                                        <h2 className="card-title title-rtl">{rawmeat.name}</h2>
+                                        <h2 className="card-title ">{rawmeat.price}</h2>
                                     </div>
                                 </div>
                             </div>

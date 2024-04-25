@@ -1,25 +1,24 @@
-import { Tajawal } from "next/font/google";
-import {Noto_Naskh_Arabic}  from "next/font/google";
+import {Tajawal} from "next/font/google";
+import {Noto_Naskh_Arabic} from "next/font/google";
 import "./globals.css";
-
 import Layout from "@/app/_components/layout/Layout";
 import Head from "next/head";
 
-const tajawal = Tajawal({ weight: ["300", "400", "500", "700"], subsets: ["latin"] });
+const tajawal = Tajawal({weight: ["300", "400", "500", "700"], subsets: ["latin"]});
 const notoNaskhArabic = Noto_Naskh_Arabic({subsets: ["arabic"]});
 
 export const metadata = {
-  title: "master BBQ",
-  description: "",
+    title: "master BBQ",
+    description: "",
 };
 
 
-const Rootlayout = ({ children }) => {
+const Rootlayout = ({children}) => {
     return (
         <>
             <Head>
                 <title>{metadata.title}</title>
-                <meta name="description" content={metadata.description} />
+                <meta name="description" content={metadata.description}/>
             </Head>
             <html lang="en">
             <body className={tajawal.className}>

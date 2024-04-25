@@ -231,8 +231,12 @@ hr {
     width: 200px; /* Adjust this value according to your design */
     overflow: hidden; /* Optional: hide overflow if the description is too long */
     text-overflow: ellipsis; /* Optional: add ellipsis for overflow text */
-}
+    direction: rtl;
 
+}
+.title-rtl{
+    direction: rtl;
+}
 .specials {
     display: flex;
     justify-content: center;

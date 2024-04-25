@@ -97,7 +97,7 @@ export default function ColsDrinks() {
                                                     />
                                                 </figure>
                                                 <div className="card-body items-center text-center">
-                                                    <h2 className="card-title">{drink.name}</h2>
+                                                    <h2 className="card-title title-rtl">{drink.name}</h2>
                                                     <div className="card-actions">
                                                         <button disabled
                                                                 className="btn btn-primary">{drink.price}</button>

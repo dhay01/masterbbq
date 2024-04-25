@@ -33,7 +33,7 @@ export default function BoxMeal() {
 
                                     </figure>
                                     <div className="card-body items-center text-center">
-                                        <h2 className="card-title">{dish.name}</h2>
+                                        <h2 className="card-title  title-rtl">{dish.name}</h2>
                                         <p className="description">{dish.description}</p>
                                         <div className="card-actions">
                                             <button disabled className="btn btn-primary">{dish.price}</button>

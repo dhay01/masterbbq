@@ -87,12 +87,8 @@ W
 'app/(routes)/menu/dishes/sweets/page.js,5/3/537f77bade4d123c7bc0a4a8905afe7c2a929da4
 `
 0app/(routes)/menu/dishes/cold-appetizers/page.js,7/3/73b15f682abaeed32e389cfa50a978a69e427e6a
-F
-app/_api/tsconfig.json,2/a/2a55587e742183ba6e4557457442824973853f53
 E
 app/_api/rawmeat.json,3/a/3ad393aa849e3ef2e6231e51f0adcce06a0b64a5
-X
-(app/_components/home/specials/rawMeat.js,2/7/270b14f8c50c0433d66c0228e49dab37e14acb9a
 Y
 )app/_components/home/specials/specials.js,f/2/f29926b4050517ee8e23b7ef1dc7d9d059157c06
 [
@@ -101,9 +97,5 @@ L
 app/(routes)/gallery/page.js,4/9/49b5b8dc241f6c7b1b25e64aadb94cd004bbf19d
 R
 "app/_components/gallery/Gallery.js,5/d/5d965ead60e67330830ede3f05542bae3965d673
-E
-app/_api/gallery.json,c/8/c81ef21509f4ec74817544f6f2e30c3ab398be37
-V
-&app/_components/gallery/ImageViewer.js,e/1/e1c37fd38c1219a0ebeaad7139f37ae19f4d6633
 9
 	server.js,d/c/dc60ea9ee1ff6246bf342463277d5b914db2883d
