@@ -97,3 +97,11 @@ Y
 )app/_components/home/specials/specials.js,f/2/f29926b4050517ee8e23b7ef1dc7d9d059157c06
 [
 +app/(routes)/menu/dishes/hot-drinks/page.js,8/9/896f710737146360e38be41af7222058c529b4eb
+L
+app/(routes)/gallery/page.js,4/9/49b5b8dc241f6c7b1b25e64aadb94cd004bbf19d
+R
+"app/_components/gallery/Gallery.js,5/d/5d965ead60e67330830ede3f05542bae3965d673
+E
+app/_api/gallery.json,c/8/c81ef21509f4ec74817544f6f2e30c3ab398be37
+V
+&app/_components/gallery/ImageViewer.js,e/1/e1c37fd38c1219a0ebeaad7139f37ae19f4d6633

@@ -1,27 +1,18 @@
 "use client"
-import {useEffect, useState} from "react";
-import {animate, motion, useMotionValue} from "framer-motion";
+import { useEffect, useState } from "react";
+import { animate, motion, useMotionValue } from "framer-motion";
 import useMeasure from "react-use-measure";
-import Card from "@/app/_components/home/carousel/Card"
-
+import Card from "@/app/_components/home/carousel/Card";
+import galleryItems from "/app/_api/photos.json";
 
 const Carousel = () => {
-    const images = [
-        "/images/photo10.jpg",
-        "/images/photo11.jpg",
-        "/images/photo13.jpg",
-        "/images/photo12.jpg",
-        "/images/photo14.jpg",
-        "/images/photo15.jpg",
-        "/images/photo17.jpg",
-        "/images/photo18.jpg",
-    ];
+    const photos = galleryItems.general_photos;
 
     const FAST_DURATION = 25;
     const SLOW_DURATION = 75;
 
     const [duration, setDuration] = useState(FAST_DURATION);
-    const [ref, {width}] = useMeasure();
+    const [ref, { width }] = useMeasure();
 
     const xTranslation = useMotionValue(0);
 
@@ -56,10 +47,9 @@ const Carousel = () => {
 
     return (
         <main className="py-8 overflow-clip">
-
             <motion.div
-                className=" flex  "
-                style={{x: xTranslation}}
+                className="flex"
+                style={{ x: xTranslation }}
                 ref={ref}
                 onHoverStart={() => {
                     setMustFinish(true);
@@ -70,11 +60,12 @@ const Carousel = () => {
                     setDuration(FAST_DURATION);
                 }}
             >
-                {[...images, ...images].map((item, idx) => (
-                    <Card image={`${item}`} key={idx}/>
+                {photos.map((item, idx) => (
+                    <Card image={item.link} key={item.id} />
                 ))}
             </motion.div>
         </main>
     );
-}
+};
+
 export default Carousel;

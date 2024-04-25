@@ -1,6 +1,5 @@
-
-import { menu } from "@/app/_api/menu.json";
-import { general_photos } from "@/app/_api/photos.json";
+import {menu} from "@/app/_api/menu.json";
+import {general_photos} from "@/app/_api/photos.json";
 import Hero from "@/app/_components/home/hero/Hero";
 import HomeMenu from "@/app/_components/home/homeMenu/homeMenu";
 
@@ -16,11 +15,11 @@ export default function HomePage() {
 
             <Hero/>
             <HomeMenu categories={menu}/>
-           <VideoComponent/>
             <Specials/>
+            <Carousel/>
+            <Contact/>
+            <VideoComponent/>
 
-            <Contact />
-            <Carousel  />
         </div>
     );
 }

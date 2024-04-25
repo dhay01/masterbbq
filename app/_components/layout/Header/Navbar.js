@@ -43,7 +43,7 @@ export default function Navbar() {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link href="/">اللغة</Link></li>
 
-                        <li><Link href="https://wa.me/9647505072244" target="_blank" rel="noopener noreferrer">احجز
+                        <li><Link href="https://wa.me/9647727072244" target="_blank" rel="noopener noreferrer">احجز
                             طاولة</Link></li>
                         <li><Link href="/menu">المنيو</Link></li>
                         <li><Link href="/">الرئيسية</Link></li>
