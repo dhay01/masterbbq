@@ -52,7 +52,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center">
                     <Image
-                        src="/images/photo2.png"
+                        src="/images/1.png"
                         alt="hero image"
                         width={70}
                         height={70}

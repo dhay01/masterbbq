@@ -254,6 +254,7 @@ hr {
 
     display: inline-block;
 }
+
 /*.soon{*/
 /*    filter: grayscale(5);*/
 /*}*/
@@ -339,4 +340,17 @@ hr {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+}
+
+.modal {
+    overscroll-behavior: none !important;
+}
+
+.modal-box .modal{
+    width: 100%;
+}
+@media (min-width: 640px){
+    .modal-box .modal {
+        max-width: 32rem;
+    }
 }
