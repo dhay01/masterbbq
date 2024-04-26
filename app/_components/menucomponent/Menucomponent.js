@@ -15,21 +15,6 @@ const Menu = ({categories}) => {
                     <h1 className="mb-5 text-5xl text-white font-bold">قائمة الطعام</h1>
                 </div>
             </div>
-
-
-            {/*<div className="container mx-auto px-4 py-8">*/}
-            {/*    <div className="flex justify-center pt-10">*/}
-            {/*        <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-x-20 md:gap-y-10 gap-y-20">*/}
-            {/*            {categories.map((category) => (*/}
-            {/*                <div key={category.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">*/}
-
-
-            {/*                </div>*/}
-            {/*            ))}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
             <div className="container mx-auto px-4 py-8">
                 <div className="flex justify-center pt-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 md:gap-y-10 gap-y-10">
