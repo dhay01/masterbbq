@@ -8,6 +8,7 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.1.2",
     "framer-motion": "^10.16.1",
     "next": "^14",
     "photoswipe": "^5.4.3",
