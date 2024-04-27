@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <main className="">
-            <div className="hero" style={{backgroundImage: 'url(/images/gallery/14.jpg)', minHeight: '450px'}}>
+            <div className="hero" style={{backgroundImage: 'url(https://masterbbqerbil.net/images/gallery/14.wwbp)', minHeight: '450px'}}>
                 <div className="hero-overlay bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
@@ -14,7 +14,7 @@ export default function Hero() {
 
                         <div className="flex flex-col items-center">
                             <Link href="/menu"
-                                  className="bg-primary font-semibold text-white text-md px-8 py-3  rounded-full  flex items-center">
+                                  className="bg-primary font-semibold  text-white text-lg px-10 py-5  rounded-full  flex items-center">
                                 عرض المنيو
 
                             </Link>
